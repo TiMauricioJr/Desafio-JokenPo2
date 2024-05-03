@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url("https://source.unsplash.com/1600x900/?landscape");
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gameover{
+    margin-top: 30px;
+    background-color: white;
+    font-size: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 50px;
+    color: darkgreen;
+
+}
+
+a{
+    margin-top: 80px;
+    font-size: 80px;
+    font-family:fantasy;
+    font-weight: 300; 
+    color: aliceblue;
+    background-color: darkred;
+    text-decoration: none;
+    border-radius: 10px;
+    padding-left:20px;
+    padding-right: 20px;
+}
+
+.image{
+    border-radius: 30px;
+}

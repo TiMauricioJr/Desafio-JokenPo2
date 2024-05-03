@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevClub - JokenPo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <main class="container">
+        <a class="youlose" href="youlose.html"></a>
+        <a class="youwin" href="youwin.html"></a>
+        
+        <div class="start-wrapper">
+            <div class="start">
+                <img id="start-image" src="assets/pressstart.jpg" alt="aperte start">
+                <button onclick="startTheGame()" class="start-button">START</button>
+            </div>
+        </div>
+        <h1>JOKENPÔ</h1> 
+        
+        <div class="botoes">
+            <button onclick="playHuman('paper')" class="paper">&#128400</button>
+            <button onclick="playHuman('scissor')" class="scissor">&#x270C</button>
+            <button onclick="playHuman('rock')" class="rock">&#x1F44A</button>
+        </div>    
+
+        <h2>SCORE:</h2>
+
+        <p class="resultHTML"></p>
+
+        <h3 class="player-one">Player One: <span id="one">0</span> </h3>
+        <h3 class="player-two">Player Two: <span id="two">0</span> </h3>
+
+    </main>
+</body>
+
+<script src="scripts.js"></script>
+
+
+</html>
